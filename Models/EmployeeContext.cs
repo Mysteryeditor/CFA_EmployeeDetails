@@ -8,7 +8,7 @@ namespace CFA_EmployeeDetails.Models
         {
             
         }
-        DbSet<Employee> Employees { get; set; }
+       public DbSet<Employee> Employees { get; set; }
 
     }
 }
